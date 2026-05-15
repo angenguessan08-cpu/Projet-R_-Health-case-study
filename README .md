@@ -217,6 +217,7 @@ This project demonstrates my ability to:
 👨‍💻 Author
 
 Ange Alida N’GUESSAN
+
 Junior Data Analyst
 
 Tech Stack
