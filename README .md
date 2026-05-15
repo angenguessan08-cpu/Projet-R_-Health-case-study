@@ -1,16 +1,13 @@
  🏥 Public Health Data Analytics with R
 
 From Raw Data to Interactive Dashboard
-
 End-to-end Data Analytics project built with R, Shiny, and the Tidyverse ecosystem
 Realistic simulation of a public health analytics case study in Sub-Saharan Africa.
 
  📌 Project Overview
 
 This project simulates a real-world public health data analytics scenario involving medical consultation data collected from multiple healthcare centers.
-
 In this case study, I act as a Junior Data Analyst collaborating with a Ministry of Health to analyze healthcare consultation records and support data-driven decision-making.
-
 As in real business environments, the dataset contains numerous data quality issues:
 
 missing values
@@ -33,22 +30,26 @@ Simulate a complete Data Analyst workflow
 📊 Business Context
 
 The dataset contains medical consultation records collected across different regions.
-
 To reflect real-world business challenges, the dataset intentionally includes common data issues:
 
 ❌ Missing values (NA)
+
 ❌ Duplicate records
+
 ❌ Typographical errors
+
 ❌ Inconsistent diagnosis labels
+
 ❌ Invalid date formats
+
 ❌ Outliers and abnormal values
 
-🔁 Data Analyst Workflow
 
+🔁 Data Analyst Workflow
 This project follows the standard workflow used in professional Data Analytics projects.
 
-1️⃣ Data Import
 
+1️⃣ Data Import
 Loading and structuring the raw dataset.
 
 Skills Used
@@ -57,7 +58,6 @@ read_csv()
 data type management
 
 2️⃣ Exploratory Data Analysis (EDA)
-
 Exploring the dataset to understand:
 data structure
 distributions
@@ -83,7 +83,6 @@ health_case_study %>%
 4️⃣ Data Transformation
 
 Creating new analytical variables:
-
 month
 year
 time aggregations
@@ -94,7 +93,6 @@ mutate(
 )
 
 5️⃣ Business Analysis
-
 Analyzing healthcare trends such as:
 most frequent diagnoses
 consultation evolution over time
@@ -102,7 +100,6 @@ Regional distribution
 healthcare activity by period
 
 6️⃣ Data Visualization
-
 Building professional visualizations using:
 ggplot2
 plotly
@@ -122,16 +119,21 @@ frequencies
 distributions
 
 8️⃣ Interactive Dashboard
-
 Developing a professional web application using Shiny.
 Dashboard Features
 
 ✅ Dynamic KPIs
+
 ✅ Interactive filters
+
 ✅ Interactive visualizations
+
 ✅ Regional analysis
+
 ✅ Data exploration
+
 ✅ Responsive layout
+
 ✅ Premium modern UI
 
 9️⃣ Reporting
@@ -168,9 +170,7 @@ Simulated healthcare consultation dataset:
 👉 <https://drive.google.com/file/d/12MRRbRapIwtxCfXa7IKq42tbn-GHWM6c/view?usp=drive_link>
 
 📈 Dashboard Features
-
 The interactive dashboard includes:
-
 📍 Region filtering
 🩺 Diagnosis filtering
 📊 Dynamic KPIs
@@ -207,8 +207,11 @@ decision support analytics
 This project demonstrates my ability to:
 
 ✅ work with messy real-world data
+
 ✅ build a complete analytics pipeline
+
 ✅ create professional dashboards
+
 ✅ transform raw data into actionable insights
 
 👨‍💻 Author
