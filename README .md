@@ -1,0 +1,220 @@
+ 🏥 Public Health Data Analytics with R
+
+From Raw Data to Interactive Dashboard
+
+End-to-end Data Analytics project built with R, Shiny, and the Tidyverse ecosystem
+Realistic simulation of a public health analytics case study in Sub-Saharan Africa.
+
+ 📌 Project Overview
+
+This project simulates a real-world public health data analytics scenario involving medical consultation data collected from multiple healthcare centers.
+
+In this case study, I act as a Junior Data Analyst collaborating with a Ministry of Health to analyze healthcare consultation records and support data-driven decision-making.
+
+As in real business environments, the dataset contains numerous data quality issues:
+
+missing values
+duplicates
+inconsistent labels
+typos
+malformed dates
+outliers
+
+The main objective is to transform raw and unreliable data into meaningful business insights and interactive visual analytics.
+
+🎯 Project Objectives
+
+Clean and standardize healthcare data
+Generate reliable business insights
+Perform exploratory and statistical analysis
+Build a professional interactive dashboard with Shiny
+Simulate a complete Data Analyst workflow
+
+📊 Business Context
+
+The dataset contains medical consultation records collected across different regions.
+
+To reflect real-world business challenges, the dataset intentionally includes common data issues:
+
+❌ Missing values (NA)
+❌ Duplicate records
+❌ Typographical errors
+❌ Inconsistent diagnosis labels
+❌ Invalid date formats
+❌ Outliers and abnormal values
+
+🔁 Data Analyst Workflow
+
+This project follows the standard workflow used in professional Data Analytics projects.
+
+1️⃣ Data Import
+
+Loading and structuring the raw dataset.
+
+Skills Used
+readr
+read_csv()
+data type management
+
+2️⃣ Exploratory Data Analysis (EDA)
+
+Exploring the dataset to understand:
+data structure
+distributions
+inconsistencies
+anomalies
+Goal
+Identify data quality issues before cleaning.
+
+3️⃣ Data Cleaning
+
+Comprehensive data cleaning process:
+
+handling missing values
+removing duplicates
+correcting typos
+standardizing categories
+formatting dates
+Example
+health_case_study %>%
+  distinct() %>%
+  drop_na()
+
+4️⃣ Data Transformation
+
+Creating new analytical variables:
+
+month
+year
+time aggregations
+business indicators
+Example
+mutate(
+  month = floor_date(consultation_date, "month")
+)
+
+5️⃣ Business Analysis
+
+Analyzing healthcare trends such as:
+most frequent diagnoses
+consultation evolution over time
+Regional distribution
+healthcare activity by period
+
+6️⃣ Data Visualization
+
+Building professional visualizations using:
+ggplot2
+plotly
+Visualizations Included
+bar charts
+trend analysis
+donut charts
+interactive graphs
+
+7️⃣ Descriptive Statistics
+
+Generating statistical indicators:
+mean
+median
+quartiles
+frequencies
+distributions
+
+8️⃣ Interactive Dashboard
+
+Developing a professional web application using Shiny.
+Dashboard Features
+
+✅ Dynamic KPIs
+✅ Interactive filters
+✅ Interactive visualizations
+✅ Regional analysis
+✅ Data exploration
+✅ Responsive layout
+✅ Premium modern UI
+
+9️⃣ Reporting
+
+Presenting analytical findings in a clear and business-friendly way.
+
+🔟 Strategic Recommendations
+
+Transforming insights into actionable recommendations:
+monitoring dominant diseases
+tracking healthcare trends
+identifying high-risk regions
+supporting healthcare decision-making
+
+🧰 Technologies Used
+
+Technology Purpose
+R Data Analytics
+RStudio Development Environment
+Shiny Interactive Dashboard
+bs4Dash Premium UI Framework
+Tidyverse Data Manipulation
+dplyr Data Transformation
+ggplot2 Data Visualization
+Plotly Interactive Charts
+DT Interactive Tables
+Lubridate Date Handling
+Readr Data Import
+
+📂 Dataset
+
+Simulated healthcare consultation dataset:
+
+👉 <https://drive.google.com/file/d/12MRRbRapIwtxCfXa7IKq42tbn-GHWM6c/view?usp=drive_link>
+
+📈 Dashboard Features
+
+The interactive dashboard includes:
+
+📍 Region filtering
+🩺 Diagnosis filtering
+📊 Dynamic KPIs
+📈 Time-series analysis
+🌍 Regional analysis
+🧠 Diagnosis insights
+📋 Interactive tables
+⚡ Dynamic visualizations
+🎨 Premium modern design
+💡 Skills Demonstrated
+
+This project highlights my skills in:
+
+Data Analytics
+data cleaning
+transformation
+exploratory analysis
+business analysis
+Data Visualization
+professional dashboard design
+storytelling with data
+interactive reporting
+Data Development
+Shiny application development
+R project structuring
+UI/UX for analytics
+Business Intelligence
+insight generation
+KPI development
+decision support analytics
+
+🚀 Final Outcome
+
+This project demonstrates my ability to:
+
+✅ work with messy real-world data
+✅ build a complete analytics pipeline
+✅ create professional dashboards
+✅ transform raw data into actionable insights
+
+👨‍💻 Author
+
+Ange Alida N’GUESSAN
+Junior Data Analyst
+
+Tech Stack
+R • SQL • Power BI • Excel • Python • Shiny
